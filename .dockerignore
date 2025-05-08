@@ -1,0 +1,73 @@
+# Ignore everything by default
+*
+
+# Allow these files and directories
+!/.dockerignore
+!/Dockerfile
+!/docker-compose*.yml
+!/requirements.txt
+!/setup.py
+!/pyproject.toml
+!/README.md
+!/LICENSE
+
+# Project specific files
+!/app/
+!/src/
+!/project/
+!/main.py
+!/wsgi.py
+!/manage.py
+
+# Python specific ignores
+!*.py
+!*.py[cod]
+!*.so
+!*.egg
+!*.egg-info/
+
+# Development files to ignore
+.env
+.env.*
+*.swp
+*.swo
+*.log
+*.sqlite3
+*.db
+*.bak
+*.tmp
+*.cache
+*.coverage
+*.pytest_cache/
+*.mypy_cache/
+*.pyre/
+*.pytype/
+
+# Version control
+.git/
+.gitignore
+.gitattributes
+.gitmodules
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Build and distribution
+build/
+dist/
+*.whl
+*.tar.gz
+*.egg-info/
+
+# Documentation
+docs/_build/

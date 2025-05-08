@@ -1,0 +1,5 @@
+Flask==3.0.3
+flask-mongoengine==1.0.0
+mongoengine==0.28.2
+gunicorn==23.0.0
+requests==2.32.3
